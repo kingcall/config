@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: def
+---
+spring:
+  profiles: dev
+  application:
+    name: app-dev
+---
+spring:
+  profiles: test
+  application:
+    name: app-test
