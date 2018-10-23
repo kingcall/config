@@ -11,7 +11,7 @@ eureka:
       defaultZone: http://eureka1:8761/eureka/
   instance:
     # 自定义服务显示的名称信息
-    instance-id: ServerHystrix:8081
+    instance-id: ConfigClient:${server.port}
     # 鼠标放上去的时候可以显示ip 信息
     prefer-ip-address: true
 management:
