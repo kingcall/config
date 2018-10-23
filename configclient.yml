@@ -19,7 +19,7 @@ management:
     web:
       exposure:
         #加载所有的端点，默认只加载了info、health
-        include: ['*',"hystrix.stream"]
+        include: '*'
   endpoint:
     health:
       show-details: always
